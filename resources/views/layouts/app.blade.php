@@ -17,13 +17,47 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
  
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Styles 
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet"> 
+    -->
+
+    {!! MaterializeCSS::include_css() !!}
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="light-blue lighten-1" role="navigation">
+
+                <div class="nav-wrapper container"><a id="logo-container" href="{{ url('/') }}" class="brand-logo">{{ config('app.name', 'Laravel') }}</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Navbar Link</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Navbar Link</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+
+
+            
+        </nav>
+
+        <main class="py-4">
             <div class="container">
+                @yield('content')
+            </div>
+            
+        </main>
+    </div>
+
+    {!! MaterializeCSS::include_js() !!}
+</body>
+</html>
+
+
+<!--
+
+<div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
@@ -32,14 +66,14 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
+                    Left Side Of Navbar 
                     <ul class="navbar-nav mr-auto">
 
                     </ul>
 
-                    <!-- Right Side Of Navbar -->
+                     Right Side Of Navbar 
                     <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
+                        Authentication Links 
                         @guest
                             <li><a class="nav-link" href="{{ route('login') }}">{{ __('auth.Login') }}</a></li>
                             <li><a class="nav-link" href="{{ route('register') }}">{{ __('auth.Register') }}</a></li>
@@ -65,11 +99,5 @@
                     </ul>
                 </div>
             </div>
-        </nav>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
-</body>
-</html>
+ -->

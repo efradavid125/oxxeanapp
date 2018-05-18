@@ -2,7 +2,53 @@
 
 @section('content')
 <div class="container">
+
+    <div class="row">
+    <div class="col s12 ">
+      <div class="card grey lighten-5">
+        <form class="col s12" method="POST" action="{{ route('login') }}">
+        <div class="card-content black-text">
+          <span class="card-title">{{ __('auth.Login') }}</span>
+            <div class="row">
+                
+                    @csrf
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <input id="email" name="email" type="email" class="validate">
+                          <label for="email">{{ __('auth.E-Mail-Address') }}</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                          <input id="password" name="password" type="password" class="validate">
+                          <label for="password">{{ __('auth.password') }}</label>
+                          <p>
+                              <label>
+                                <input type="checkbox" name="remember" />
+                                <span>{{ __('auth.Remember-Me') }}</span>
+                              </label>
+                            </p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="card-action">
+            <button type="submit" class="btn btn-primary">
+                {{ __('auth.Login') }}
+            </button>
+            <a class="btn btn-link" href="{{ route('password.request') }}">
+                {{ __('auth.Forgot-Your-Password') }}
+            </a>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
     <div class="row justify-content-center">
+
+
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('auth.Login') }}</div>

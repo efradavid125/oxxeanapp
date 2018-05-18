@@ -1,25 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card ">
-                <div class="card-header bg-primary">Panel Principal</div>
+<div class="row">
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+      <div class="col s12 "> <!-- Note that "m8 l9" was added -->
+        <!-- Teal page content
 
-                    Bienvenido!
-                </div>
-            </div>
-        </div>
+              This content will be:
+          9-columns-wide on large screens,
+          8-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+
+      </div>
+
     </div>
-    <br>
-    
-</div>
 @endsection
