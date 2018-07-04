@@ -13,3 +13,29 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+
+mix.copy('resources/assets/bower_components/bootstrap/dist/css/bootstrap.min.css', 'public/css/bootstrap.min.css');
+mix.copy('resources/assets/bower_components/font-awesome/css/font-awesome.min.css','public/css/font-awesome.min.css');
+
+
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+mix.copy('','');
+
+/*
+mix.styles([
+    'public/css/vendor/normalize.css',
+    'public/css/vendor/videojs.css'
+], 'public/css/all.css');
+
+*/
+
