@@ -45,7 +45,7 @@
       </div>
     </div>
   </div>
-
+<!--
     <div class="row justify-content-center">
 
 
@@ -111,5 +111,6 @@
             </div>
         </div>
     </div>
+-->
 </div>
 @endsection
