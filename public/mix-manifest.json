@@ -1,5 +1,25 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/bootstrap.min.css": "/css/bootstrap.min.css"
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/font-awesome.min.css": "/css/font-awesome.min.css",
+    "/css/ionicons.min.css": "/css/ionicons.min.css",
+    "/css/AdminLTE.min.css": "/css/AdminLTE.min.css",
+    "/css/bootstrap-material-design.min.css": "/css/bootstrap-material-design.min.css",
+    "/css/ripples.min.css": "/css/ripples.min.css",
+    "/css/MaterialAdminLTE.min.css": "/css/MaterialAdminLTE.min.css",
+    "/css/skins/all-md-skins.min.css": "/css/skins/all-md-skins.min.css",
+    "/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css": "/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css",
+    "/js/bower_components/jquery/dist/jquery.min.js": "/js/bower_components/jquery/dist/jquery.min.js",
+    "/js/bower_components/jquery-ui/jquery-ui.min.js": "/js/bower_components/jquery-ui/jquery-ui.min.js",
+    "/js/bower_components/bootstrap/dist/js/bootstrap.min.js": "/js/bower_components/bootstrap/dist/js/bootstrap.min.js",
+    "/js/dist/js/material.min.js": "/js/dist/js/material.min.js",
+    "/js/dist/js/ripples.min.js": "/js/dist/js/ripples.min.js",
+    "/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js": "/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js",
+    "/js/bower_components/jquery-slimscroll/jquery.slimscroll.min.js": "/js/bower_components/jquery-slimscroll/jquery.slimscroll.min.js",
+    "/js/bower_components/fastclick/lib/fastclick.js": "/js/bower_components/fastclick/lib/fastclick.js",
+    "/js/dist/js/adminlte.min.js": "/js/dist/js/adminlte.min.js",
+    "/js/dist/js/pages/dashboard.js": "/js/dist/js/pages/dashboard.js",
+    "/js/dist/js/demo.js": "/js/dist/js/demo.js",
+    "/js/bower_components/bower_components/moment/min/moment.min.js": "/js/bower_components/bower_components/moment/min/moment.min.js"
 }
